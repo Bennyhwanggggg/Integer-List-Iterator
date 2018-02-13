@@ -7,7 +7,4 @@ traverse the list in either direction, modify the list during iteration, and obt
 the list.
 
 A List Iterator has no current element; its cursor position always lies between the element that would be
-returned by a call to previous and the element that would be returned by a call to next. An iterator for a list
-of length n has n+1 possible cursor positions, as illustrated by the carets (^) below:
-                   Element(0) Element(1) Element(2) ... Element(n-1)
-cursor positions: ^          ^          ^          ^                ^
+returned by a call to previous and the element that would be returned by a call to next. See sample test log on how it works....
